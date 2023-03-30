@@ -1,4 +1,4 @@
-# chat-cord :rocket
+# chat-cord `:rocket`
 
 A chat app created with ExpressJS, Socket.io and boostrap CSS framework
 
