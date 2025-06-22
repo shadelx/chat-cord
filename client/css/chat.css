@@ -8,7 +8,6 @@ body {
 }
 .chat-container {
   height: 100vh;
-  max-width: 100%;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
   overflow: hidden;
   background: #fff;
@@ -52,6 +51,11 @@ body {
 }
 .message {
   margin-bottom: 1rem;
+  background-color: rgb(73, 73, 73);
+  border-radius: 10px;
+  max-width: fit-content;
+  padding: 0.5rem 1rem;
+  color: #fff;
 }
 .message .user {
   font-weight: 500;
@@ -61,4 +65,13 @@ body {
   padding: 1rem;
   border-top: 1px solid #dee2e6;
   background: #fff;
+}
+.chat-input input {
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+}
+.chat-input input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #1a1b1b;
 }
